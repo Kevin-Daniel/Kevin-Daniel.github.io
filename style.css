@@ -2,7 +2,7 @@
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-top: 150px;
+  margin-top: 175px;
 }
 
 header {
@@ -12,6 +12,18 @@ header {
   width: 100%;
 }
 
+.topheader img {
+  float: left;
+  width: 85px;
+  height: 85px;
+  background: #555;
+}
+
+.topheader h1 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
 .subpage {
   margin-bottom: 200;
   top: -150px
@@ -21,6 +33,7 @@ header {
   list-style-type: none;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 50px;
   padding: 0;
   background-color: #ffbf80;
 }
