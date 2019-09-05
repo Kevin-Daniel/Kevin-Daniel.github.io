@@ -1,8 +1,13 @@
 /* Add your styles here */
 body {
   background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 175px;
+}
+
+body img {
+  border-radius: 12px;
 }
 
 header {
@@ -10,6 +15,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  /*border-radius: 20px;*/
 }
 
 footer {
@@ -22,6 +28,7 @@ footer {
   padding-bottom: 25px;
   padding-top: 25px;
   /*display: inline-block*/
+  border-radius: 12px;
 }
 
 p {
@@ -49,9 +56,16 @@ p {
 .homepage img {
   float: "left";
 }
+
 .subpage {
-  margin-bottom: 300;
-  top: -150px
+  /*margin-bottom: 300;*/
+  top: -150px;
+  background-color: antiquewhite;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
 }
 
 .subpage2 img {
@@ -59,8 +73,13 @@ p {
 }
 
 .subpage2 {
-  margin-bottom: 300;
-  top: -150px
+  top: -150px;
+  background-color: rgb(252, 242, 205);
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
 }
 
 .subpage2 br {
@@ -72,8 +91,8 @@ p {
 
 .subpage img {
   float: right;
-  height: 360px;
-  width: 480px;
+  /*height: 360px;
+  width: 480px;*/
 }
 
 .navul {
@@ -83,11 +102,14 @@ p {
   margin-top: 50px;
   padding: 0;
   background-color: #ffbf80;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .navli {
   display: inline-block;
-  margin-right: 5%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 /* Dropdown Button */
@@ -97,7 +119,7 @@ p {
   padding: 8px;
   font-size: 16px;
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 .navbtn {
@@ -106,7 +128,7 @@ p {
   padding: 8px;
   font-size: 16px;
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
   /*border: 2px solid #ff9933;*/
 }
 /* The container <div> - needed to position the dropdown content */
